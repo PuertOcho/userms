@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: knowly-user
+  config:
+    import: optional:configserver:http://knowly-config:8888
